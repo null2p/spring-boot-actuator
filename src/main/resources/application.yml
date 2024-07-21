@@ -1,4 +1,6 @@
 management:
+  server:
+    port: 8080
   endpoints:
     web:
       exposure:
@@ -14,6 +16,7 @@ management:
       enabled: true
     env:
       enabled: true
+
 info:
   app:
     name: hello-actuator
