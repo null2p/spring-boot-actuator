@@ -21,7 +21,12 @@ info:
   app:
     name: hello-actuator
     company: yh
-#
-#logging:
-#  level:
-#    hello.controller: debug
+
+logging:
+  level:
+    hello.controller: debug
+
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
